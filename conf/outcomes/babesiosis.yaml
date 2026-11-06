@@ -1,0 +1,12 @@
+babesiosis:
+  short_name: "babesiosis"
+  long_name: "Babesiosis"
+  icdset1:
+    icd9: ['08882']
+    icd10: ['B600', 'B6000', 'B6001', 'B6002', 'B6003', 'B6009']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

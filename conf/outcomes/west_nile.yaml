@@ -1,0 +1,12 @@
+west_nile:
+  short_name: "west_nile"
+  long_name: "West Nile Virus"
+  icdset1:
+    icd9: ['06640', '06641', '06642', '06649']
+    icd10: ['A9230', 'A9231', 'A9232', 'A9239']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

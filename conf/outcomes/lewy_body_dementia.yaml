@@ -1,0 +1,38 @@
+lewy_body_dementia:
+  short_name: "lewy_body_dementia"
+  long_name: "Dementia with Lewy Bodies"
+  icdset1:
+    icd9: ['33182']
+    icd10: ['G3183']
+    inclusioncriteria1:
+      definition_author: "Xiao"
+      criteria_name: dx1_all
+      outcome_criteria: first_n
+      first_n: 1
+    inclusioncriteria2:
+      definition_author: "Xiao"
+      criteria_name: dx25_all
+      outcome_criteria: first_n
+      first_n: 25
+
+  icdset2:
+    icd9: ['33182']
+    icd10: ['G3183', 'F023']
+    inclusioncriteria1:
+      definition_author: "Xiao"
+      criteria_name: dx25_all
+      outcome_criteria: first_n
+      first_n: 25
+  
+  icdset3:
+    inclusioncriteria1:
+      criteria_name: dx25_conditional_all
+      definition_author: "Xiao"
+      outcome_criteria: conditional
+      primary_icd9: ['33182']
+      primary_icd10: ['G3183']
+      secondary_icd9: ['29410', '29411']
+      secondary_icd10: ['F0280', 'F0281', 'F02811', 'F02818', 'F023']
+      primary_position: 1
+      secondary_start_position: 2
+      secondary_end_position: 25

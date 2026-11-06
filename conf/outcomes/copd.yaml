@@ -1,0 +1,20 @@
+copd:
+  short_name: "copd"
+  long_name: "Chronic Obstructive Pulmonary Disease"
+  icdset1:
+    icd9: ['490', '4910', '4911', '49120', '49121', '49122', '4918', '4919', '4920', '4928', '4940', '4941', '4950', '4951', '4952', '4953', '4954', '4955', '4956', '4957', '4958', '4959', '496']
+    icd10: ['J40', 'J410', 'J411', 'J418', 'J42', 'J430', 'J431', 'J432', 'J438', 'J439', 'J440', 'J441', 'J4481', 'J4489', 'J449', 'J470', 'J471', 'J479']
+    inclusioncriteria1:
+      definition_author: "Ernani Francisco Choma"
+      criteria_name: dx25_all
+      outcome_criteria: first_n
+      first_n: 25
+
+  icdset2:
+    icd9: ['4910', '4911', '49120', '49121', '49122', '4918', '4919', '4920', '4928', '496']
+    icd10: ['J410', 'J411', 'J418', 'J42', 'J430', 'J431', 'J432', 'J438', 'J439', 'J440', 'J441', 'J4481', 'J4489', 'J449']
+    inclusioncriteria1:
+      definition_author: "Michelle Yichen"
+      criteria_name: dx1_all
+      outcome_criteria: first_n
+      first_n: 1

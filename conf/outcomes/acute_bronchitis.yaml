@@ -1,0 +1,11 @@
+acute_bronchitis:
+  short_name: "acute_bronchitis"
+  long_name: "Acute Bronchitis"
+  icdset1:
+    icd9: ['4660']
+    icd10: ['J200', 'J201', 'J202', 'J203', 'J204', 'J205', 'J206', 'J207', 'J208', 'J209']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell, Yichen"
+      criteria_name: "dx1_all"
+      outcome_criteria: "first_n"
+      first_n: 1

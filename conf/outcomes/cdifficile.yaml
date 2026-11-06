@@ -1,0 +1,12 @@
+cdifficile:
+  short_name: "cdifficile"
+  long_name: "Clostridioides difficile"
+  icdset1:
+    icd9: ['00845']
+    icd10: ['A047', 'A0471', 'A0472']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

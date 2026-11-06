@@ -1,0 +1,12 @@
+leishmaniasis:
+  short_name: "leishmaniasis"
+  long_name: "Leishmaniasis"
+  icdset1:
+    icd9: ['0850', '0851', '0852', '0853', '0854', '0855', '0859']
+    icd10: ['B550', 'B551', 'B552', 'B559']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

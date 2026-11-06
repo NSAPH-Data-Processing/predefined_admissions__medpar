@@ -1,0 +1,12 @@
+malaria:
+  short_name: "malaria"
+  long_name: "Malaria"
+  icdset1:
+    icd9: ['0840', '0841', '0842', '0843', '0844', '0845', '0846', '0847', '0848', '0849']
+    icd10: ['B500', 'B508', 'B509', 'B510', 'B518', 'B519', 'B520', 'B528', 'B529', 'B530', 'B531', 'B538', 'B54']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

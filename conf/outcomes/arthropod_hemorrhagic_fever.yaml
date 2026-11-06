@@ -1,0 +1,12 @@
+arthropod_hemorrhagic_fever:
+  short_name: "arthropod_hemorrhagic_fever"
+  long_name: "Arthropod-borne and Hemorrhagic Fevers"
+  icdset1:
+    icd9: ['0600', '0601', '0609', '064', '0650', '0651', '0652', '0653', '0654', '0658', '0659', '0660', '0661', '0662', '0663', '0668', '0669']
+    icd10: ['A920', 'A921', 'A922', 'A924', 'A925', 'A928', 'A929', 'A930', 'A931', 'A932', 'A938', 'A94', 'A950', 'A951', 'A959', 'A980', 'A981', 'A982', 'A983', 'A984', 'A985', 'A988', 'A99']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

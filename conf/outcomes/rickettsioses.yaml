@@ -1,0 +1,12 @@
+rickettsioses:
+  short_name: "rickettsioses"
+  long_name: "Rickettsioses"
+  icdset1:
+    icd9: ['080', '0810', '0811', '0812', '0819', '0820', '0821', '0822', '0823', '08240', '08241', '08249', '0828', '0829', '0830', '0831', '0832', '0838', '0839']
+    icd10: ['A750', 'A751', 'A752', 'A753', 'A759', 'A770', 'A771', 'A772', 'A773', 'A7740', 'A7741', 'A7749', 'A778', 'A779', 'A78', 'A790', 'A791', 'A7981', 'A7982', 'A7989', 'A799']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

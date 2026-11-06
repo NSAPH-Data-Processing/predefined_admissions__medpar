@@ -1,0 +1,16 @@
+heart_failure:
+  short_name: "heart_failure"
+  long_name: "Heart Failure"
+  icdset1:
+    icd9: ['4280', '4281', '42820', '42821', '42822', '42823', '42830', '42831', '42832', '42833', '42840', '42841', '42842', '42843', '4289']
+    icd10: ['I501', 'I5020', 'I5021', 'I5022', 'I5023', 'I5030', 'I5031', 'I5032', 'I5033', 'I5040', 'I5041', 'I5042', 'I5043', 'I50810', 'I50811', 'I50812', 'I50813', 'I50814', 'I5082', 'I5083', 'I5084', 'I5089', 'I509']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell, Yichen"
+      criteria_name: dx1_all
+      outcome_criteria: first_n
+      first_n: 1
+    inclusioncriteria2:
+      definition_author: "Ernani Francisco Choma"
+      criteria_name: dx25_all
+      outcome_criteria: first_n
+      first_n: 25

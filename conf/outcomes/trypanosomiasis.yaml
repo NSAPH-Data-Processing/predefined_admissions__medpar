@@ -1,0 +1,12 @@
+trypanosomiasis:
+  short_name: "trypanosomiasis"
+  long_name: "Trypanosomiasis"
+  icdset1:
+    icd9: ['0860', '0861', '0862', '0863', '0864', '0865', '0869']
+    icd10: ['B560', 'B561', 'B569', 'B570', 'B571', 'B572', 'B5730', 'B5731', 'B5732', 'B5739', 'B5740', 'B5741', 'B5742', 'B5749', 'B575']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

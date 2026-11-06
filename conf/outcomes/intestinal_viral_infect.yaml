@@ -1,0 +1,12 @@
+intestinal_viral_infect:
+  short_name: "intestinal_viral_infect"
+  long_name: "Intestinal Viral Diseases"
+  icdset1:
+    icd9: ['00861', '00862', '00863', '00864', '00865', '00866', '00867', '00869', '0090', '0091', '0092', '0093']
+    icd10: ['A080', 'A0811', 'A0819', 'A082', 'A0831', 'A0832', 'A0839', 'A084', 'A088', 'A09']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

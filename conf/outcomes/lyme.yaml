@@ -1,0 +1,12 @@
+lyme:
+  short_name: "lyme"
+  long_name: "Lyme Disease"
+  icdset1:
+    icd9: ['08881']
+    icd10: ['A6920', 'A6921', 'A6922', 'A6923', 'A6929']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

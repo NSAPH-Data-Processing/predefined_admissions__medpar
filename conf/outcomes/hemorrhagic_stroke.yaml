@@ -1,0 +1,12 @@
+hemorrhagic_stroke:
+  short_name: "hemorrhagic_stroke"
+  long_name: "Hemorrhagic Stroke"
+
+  icdset1:
+    icd9: ['430', '431', '4320', '4321', '4329']
+    icd10: ['I6000', 'I6001', 'I6002', 'I6010', 'I6011', 'I6012', 'I602', 'I6020', 'I6021', 'I6022', 'I6030', 'I6031', 'I6032', 'I604', 'I6050', 'I6051', 'I6052', 'I606', 'I607', 'I608', 'I609', 'I610', 'I611', 'I612', 'I613', 'I614', 'I615', 'I616', 'I618', 'I619', 'I6200', 'I6201', 'I6202', 'I6203', 'I621', 'I629']
+    inclusioncriteria1:
+      definition_author: "Ernani Francisco Choma"
+      criteria_name: "dx25_all"
+      outcome_criteria: "first_n"
+      first_n: 25

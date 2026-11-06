@@ -1,0 +1,12 @@
+relapsing_fever:
+  short_name: "relapsing_fever"
+  long_name: "Relapsing Fevers"
+  icdset1:
+    icd9: ['0870', '0871', '0879']
+    icd10: ['A680', 'A681', 'A689']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

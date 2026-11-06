@@ -1,0 +1,25 @@
+dengue:
+  short_name: "dengue"
+  long_name: "Dengue"
+  icdset1:
+    icd9: ['061']
+    icd10: ['A90', 'A91']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30
+
+
+  
+
+
+
+
+
+
+
+
+
+

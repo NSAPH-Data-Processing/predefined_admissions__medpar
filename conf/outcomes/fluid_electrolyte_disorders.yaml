@@ -1,0 +1,11 @@
+fluid_electrolyte_disorders:
+  short_name: "fluid_electrolyte_disorders"
+  long_name: "Fluid and Electrolyte Disorders"
+  icdset1:
+    icd9: ['2760', '2761', '2762', '2763', '2764', '27650', '27651', '27652', '2766', '27661', '27669', '2767', '2768', '2769']
+    icd10: ['E860', 'E861', 'E869', 'E870', 'E871', 'E872', 'E8720', 'E8721', 'E8722', 'E8729', 'E873', 'E874', 'E875', 'E876', 'E8770', 'E8771', 'E8779', 'E878']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell, Yichen"
+      criteria_name: "dx1_all"
+      outcome_criteria: "first_n"
+      first_n: 1

@@ -1,0 +1,12 @@
+tick_encephalitis:
+  short_name: "tick_encephalitis"
+  long_name: "Tick-borne Viral Encephalitis"
+  icdset1:
+    icd9: ['0630', '0631', '0632', '0638', '0639']
+    icd10: ['A840', 'A841', 'A848', 'A8481', 'A8489', 'A849']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

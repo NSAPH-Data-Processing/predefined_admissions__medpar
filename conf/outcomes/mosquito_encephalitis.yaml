@@ -1,0 +1,12 @@
+mosquito_encephalitis:
+  short_name: "mosquito_encephalitis"
+  long_name: "Mosquito-borne Viral Encephalitis"
+  icdset1:
+    icd9: ['0620', '0621', '0622', '0623', '0624', '0625', '0628', '0629']
+    icd10: ['A830', 'A831', 'A832', 'A833', 'A834', 'A835', 'A836', 'A838', 'A839']
+    inclusioncriteria1:
+      definition_author: "Michelle Bell and Tian"
+      criteria_name: dx25_noreadmissions30d
+      outcome_criteria: first_n
+      first_n: 25
+      exclude_readmissions_days: 30

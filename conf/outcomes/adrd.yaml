@@ -1,0 +1,20 @@
+adrd :
+  short_name: "adrd"
+  long_name : "Alzheimer's Disease and Related Dementias"
+  icdset1:
+    icd9: ["29040", "29041", "29042", "29043", "2900", "2901", "29010", "29011", "29012", "29013", "29020", "29021", "2903", "29410", "29411", "2940", "29420", "29421", "2948", "3310", "33111", "33119", "3312", "3317", "797"]
+    icd10: ["F0150", "F0151", "F0280", "F0281", "F0390", "F0391", "F05", "F04", "F060", "F061", "F068", "G309", "G300", "G301", "G308", "G3101", "G3109", "G311", "G312", "G94", "G132", "G138", "G914", "R4181", "R54"]
+    inclusioncriteria1:
+      definition_author: “Michelle Bell, Yongsoo Choi”
+      criteria_name: "dx10_all"
+      outcome_criteria: "first_n"
+      first_n: 10
+
+  icdset2:
+   icd9: ["3310", "33111", "33119", "3312","2900", "29010", "29011", "29012", "29013","29020", "29021", "2903", "29040", "29041","29042", "29043", "29410", "29411","29420", "29421", "797"]
+   icd10: ["F0150", "F0151", "F0280", "F0281", "F0390","G300", "G301", "G308", "G309","G3101", "G3109", "G311", "G312","R4181"]
+   inclusioncriteria1:
+      definition_author: “Michelle Bell, Garam”
+      criteria_name: "dx25_all"
+      outcome_criteria: "first_n"
+      first_n: 25
